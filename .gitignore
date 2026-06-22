@@ -3,3 +3,11 @@ __pycache__/
 tmp.log
 logs.txt
 CLAUDE.local.md
+CLAUDE.md
+LICENSE
+.gitignore
+
+
+# DDA simulation artifacts (regenerable, large)
+experiments/dynamic_device_allocation/traces/
+experiments/dynamic_device_allocation/results/sim_*.csv
