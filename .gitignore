@@ -6,8 +6,14 @@ CLAUDE.local.md
 CLAUDE.md
 LICENSE
 .gitignore
+.vscode/extensions.json
 
 
 # DDA simulation artifacts (regenerable, large)
 experiments/dynamic_device_allocation/traces/
 experiments/dynamic_device_allocation/results/sim_*.csv
+
+# Accessory files
+PIM\ Is\ All\ You\ Need\ A\ CXL-Enabled\ GPU-Free\ System.pdf
+cent_simulation/critical_files.txt
+myREADME.md
