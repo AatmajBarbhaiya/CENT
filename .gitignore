@@ -12,6 +12,8 @@ LICENSE
 # DDA simulation artifacts (regenerable, large)
 experiments/dynamic_device_allocation/traces/
 experiments/dynamic_device_allocation/results/sim_*.csv
+experiments/dda_full_sweep/traces/
+experiments/dda_full_sweep/results/sim_*.csv
 
 # Accessory files
 PIM\ Is\ All\ You\ Need\ A\ CXL-Enabled\ GPU-Free\ System.pdf
