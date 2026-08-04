@@ -1,0 +1,4 @@
+Model,ttft_bar_s,static_cfg,static_total_tput,static_batch_lat_s,dda_cfg,dda_total_tput,dda_batch_lat_s,dda_spill_frac,tput_ratio,batch_lat_ratio
+Llama2-7B,0.562,PP16/TP2,7218.4,4.68,8xTP2/N_T16,9848.3,10.83,0.0,1.36,2.31
+Llama2-7B,0.7181,PP32/TP1,11505.4,5.87,8xTP2/N_T16,9848.3,10.83,0.0,0.86,1.84
+Llama2-13B,2.3622,PP40/TP1,4402.4,19.19,6xTP2/N_T20,6020.1,19.19,0.0,1.37,1.0

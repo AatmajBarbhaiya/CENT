@@ -1,0 +1,12 @@
+Model,deployment,devices,eff_TTFT_s,batch_lat_s,served_frac,unmet_frac,spill_frac,reconfigs,tokens_lost,util
+Llama2-7B,static_8dev_PP32/TP1,8,2.478,20.89,0.6193,0.3807,,0,0.0,1.0
+Llama2-7B,static_32dev_PP32/TP1,32,0.718,5.87,1.0,0.0,,0,0.0,0.4539
+Llama2-7B,dda_static,32,2.454,8.565,1.0,0.0,0.3186,0,0.0,0.6967
+Llama2-7B,dda_dynamic,32,1.2288,8.715,0.9995,0.0002,0.1024,12,4110222.0,0.6385
+Llama2-13B,static_20dev_PP40/TP1,20,2.362,19.19,1.0,0.0,,0,0.0,0.6154
+Llama2-13B,static_32dev_PP40/TP1,32,2.362,19.19,1.0,0.0,,0,0.0,0.6154
+Llama2-13B,dda_static,32,5.1221,16.995,1.0,0.0,0.2993,0,0.0,0.5349
+Llama2-13B,dda_dynamic,32,2.2575,17.0262,0.9994,0.0007,0.0972,18,3893968.0,0.5209
+Llama2-70B,static_32dev_PP80/TP1,32,17.82,134.97,1.0,0.0,,0,0.0,0.1448
+Llama2-70B,dda_static,32,2.143,152.75,1.0,0.0,0.0,0,0.0,0.1621
+Llama2-70B,dda_dynamic,32,2.143,152.75,1.0,0.0,0.0,0,0.0,0.1621

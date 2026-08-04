@@ -1,0 +1,395 @@
+Model,series,cfg,devices,TTFT_s,tput
+Llama2-7B,native,PP1/TP8,8,0.656420079125,553.3929928981811
+Llama2-7B,native,PP2/TP4,8,0.7427183237499999,998.4578949610166
+Llama2-7B,native,PP4/TP2,8,0.90987284725,1675.0934644803335
+Llama2-7B,native,PP8/TP1,8,1.26202407025,2505.623580776806
+Llama2-7B,native,PP32/TP1,8,4.021721086875,3000.336182238341
+Llama2-7B,cent32static,PP1/TP32,32,0.6526618054999999,555.7685552342095
+Llama2-7B,cent32static,PP2/TP16,32,0.647102249875,1118.644524439133
+Llama2-7B,cent32static,PP4/TP8,32,0.656420079125,2213.5719715927244
+Llama2-7B,cent32static,PP8/TP4,32,0.7427183237499999,3993.8315798440663
+Llama2-7B,cent32static,PP16/TP2,32,0.90987284725,6700.373857921334
+Llama2-7B,cent32static,PP32/TP1,32,1.2107697305625,10368.843912275133
+Llama2-7B,dda_alpha,a=0.02,32,0.91,5912.4
+Llama2-7B,dda_alpha,a=0.03,32,0.91,5973.4
+Llama2-7B,dda_alpha,a=0.04,32,0.91,6035.6
+Llama2-7B,dda_alpha,a=0.05,32,0.91,6099.2
+Llama2-7B,dda_alpha,a=0.06,32,0.91,6164.0
+Llama2-7B,dda_alpha,a=0.07,32,0.743,6230.3
+Llama2-7B,dda_alpha,a=0.08,32,0.722,6298.0
+Llama2-7B,dda_alpha,a=0.09,32,0.656,6367.3
+Llama2-7B,dda_alpha,a=0.10,32,0.656,6438.0
+Llama2-7B,dda_alpha,a=0.11,32,0.656,6510.3
+Llama2-7B,dda_alpha,a=0.12,32,0.656,6584.3
+Llama2-7B,dda_alpha,a=0.13,32,0.656,6660.0
+Llama2-7B,dda_alpha,a=0.14,32,0.656,6737.4
+Llama2-7B,dda_alpha,a=0.15,32,0.656,6816.7
+Llama2-7B,dda_alpha,a=0.16,32,0.656,6897.9
+Llama2-7B,dda_alpha,a=0.17,32,0.656,6510.6
+Llama2-7B,dda_alpha,a=0.18,32,0.656,6148.9
+Llama2-7B,dda_alpha,a=0.19,32,0.656,5825.3
+Llama2-7B,dda_alpha,a=0.20,32,0.656,5534.0
+Llama2-7B,dda_alpha,a=0.21,32,0.656,5270.5
+Llama2-7B,dda_alpha,a=0.22,32,0.656,5030.9
+Llama2-7B,dda_alpha,a=0.23,32,0.656,4812.2
+Llama2-7B,dda_alpha,a=0.24,32,0.656,4611.7
+Llama2-7B,dda_alpha,a=0.25,32,0.656,4427.2
+Llama2-7B,dda_alpha,a=0.26,32,0.656,4256.9
+Llama2-7B,dda_alpha,a=0.27,32,0.656,4110.0
+Llama2-7B,dda_alpha,a=0.28,32,0.656,4167.1
+Llama2-7B,dda_alpha,a=0.29,32,0.656,4225.8
+Llama2-7B,dda_alpha,a=0.30,32,0.656,4286.1
+Llama2-7B,dda_alpha,a=0.31,32,0.656,4348.3
+Llama2-7B,dda_alpha,a=0.32,32,0.656,4412.2
+Llama2-7B,dda_alpha,a=0.33,32,0.656,4478.1
+Llama2-7B,dda_alpha,a=0.34,32,0.656,4545.9
+Llama2-7B,dda_alpha,a=0.35,32,0.656,4615.8
+Llama2-7B,dda_alpha,a=0.36,32,0.656,4611.7
+Llama2-7B,dda_alpha,a=0.37,32,0.656,4487.0
+Llama2-7B,dda_alpha,a=0.38,32,0.656,4368.9
+Llama2-7B,dda_alpha,a=0.39,32,0.656,4256.9
+Llama2-7B,dda_alpha,a=0.40,32,0.656,4150.5
+Llama2-7B,dda_alpha,a=0.41,32,0.656,4049.3
+Llama2-7B,dda_alpha,a=0.42,32,0.656,3952.9
+Llama2-7B,dda_alpha,a=0.43,32,0.656,3860.9
+Llama2-7B,dda_alpha,a=0.44,32,0.656,3773.2
+Llama2-7B,dda_alpha,a=0.45,32,0.656,3689.3
+Llama2-7B,dda_alpha,a=0.46,32,0.656,3609.1
+Llama2-7B,dda_alpha,a=0.47,32,0.656,3532.3
+Llama2-7B,dda_alpha,a=0.48,32,0.656,3458.8
+Llama2-7B,dda_alpha,a=0.49,32,0.656,3388.2
+Llama2-7B,dda_alpha,a=0.50,32,0.656,3320.4
+Llama2-7B,dda_alpha,a=0.51,32,0.656,3255.3
+Llama2-7B,dda_alpha,a=0.52,32,0.656,3192.7
+Llama2-7B,dda_alpha,a=0.53,32,0.656,3132.5
+Llama2-7B,dda_alpha,a=0.54,32,0.656,3074.4
+Llama2-7B,dda_alpha,a=0.55,32,0.656,3018.5
+Llama2-7B,dda_alpha,a=0.56,32,0.656,2964.6
+Llama2-7B,dda_alpha,a=0.57,32,0.656,2912.6
+Llama2-7B,dda_alpha,a=0.58,32,0.656,2862.4
+Llama2-7B,dda_alpha,a=0.59,32,0.656,2813.9
+Llama2-7B,dda_alpha,a=0.60,32,0.656,2767.0
+Llama2-7B,dda_alpha,a=0.61,32,0.656,2721.6
+Llama2-7B,dda_alpha,a=0.62,32,0.656,2677.7
+Llama2-7B,dda_alpha,a=0.63,32,0.656,2635.2
+Llama2-7B,dda_alpha,a=0.64,32,0.656,2594.1
+Llama2-7B,dda_alpha,a=0.65,32,0.656,2554.2
+Llama2-7B,dda_alpha,a=0.66,32,0.656,2515.5
+Llama2-7B,dda_alpha,a=0.67,32,0.656,2477.9
+Llama2-7B,dda_alpha,a=0.68,32,0.656,2441.5
+Llama2-7B,dda_alpha,a=0.69,32,0.656,2406.1
+Llama2-7B,dda_alpha,a=0.70,32,0.656,2371.7
+Llama2-7B,dda_alpha,a=0.71,32,0.656,2338.3
+Llama2-7B,dda_alpha,a=0.72,32,0.656,2305.8
+Llama2-7B,dda_alpha,a=0.73,32,0.656,2274.2
+Llama2-7B,dda_alpha,a=0.74,32,0.656,2243.5
+Llama2-7B,dda_alpha,a=0.75,32,0.656,2213.6
+Llama2-7B,dda_alpha,a=0.76,32,0.656,2184.5
+Llama2-7B,dda_alpha,a=0.77,32,0.656,2156.1
+Llama2-7B,dda_alpha,a=0.78,32,0.656,2128.5
+Llama2-7B,dda_alpha,a=0.79,32,0.656,2101.5
+Llama2-7B,dda_alpha,a=0.80,32,0.656,2075.2
+Llama2-7B,dda_alpha,a=0.81,32,0.656,2049.6
+Llama2-7B,dda_alpha,a=0.82,32,0.656,2024.6
+Llama2-7B,dda_alpha,a=0.83,32,0.656,2000.2
+Llama2-7B,dda_alpha,a=0.84,32,0.656,1976.4
+Llama2-7B,dda_alpha,a=0.85,32,0.656,1953.2
+Llama2-7B,dda_alpha,a=0.86,32,0.656,1930.5
+Llama2-7B,dda_alpha,a=0.87,32,0.656,1908.3
+Llama2-7B,dda_alpha,a=0.88,32,0.656,1886.6
+Llama2-7B,dda_alpha,a=0.89,32,0.656,1865.4
+Llama2-7B,dda_alpha,a=0.90,32,0.656,1844.7
+Llama2-7B,dda_alpha,a=0.91,32,0.656,1824.4
+Llama2-7B,dda_alpha,a=0.92,32,0.656,1804.6
+Llama2-7B,dda_alpha,a=0.93,32,0.656,1785.2
+Llama2-7B,dda_alpha,a=0.94,32,0.656,1766.2
+Llama2-7B,dda_alpha,a=0.95,32,0.656,1747.6
+Llama2-7B,dda_alpha,a=0.96,32,0.656,1729.4
+Llama2-7B,dda_alpha,a=0.97,32,0.656,1711.5
+Llama2-7B,dda_alpha,a=0.98,32,0.656,1694.1
+Llama2-7B,dda_poolL,Pool L,32,0.6289725682499999,571.2506522730625
+Llama2-7B,dda_poolL,Pool L,32,0.6311698338749999,569.7764996857445
+Llama2-7B,dda_poolL,Pool L,32,0.6384940526249999,564.9199894619599
+Llama2-7B,dda_poolL,Pool L,32,0.6439132285,561.3823593543514
+Llama2-7B,dda_poolL,Pool L,32,0.647102249875,559.3222622195665
+Llama2-7B,dda_poolL,Pool L,32,0.654182328,554.8048738331165
+Llama2-7B,dda_poolL,Pool L,32,0.6551512938749999,554.1925890324138
+Llama2-7B,dda_poolL,Pool L,32,0.656420079125,553.3929928981811
+Llama2-7B,dda_poolL,Pool L,32,0.660285843625,550.9716331868783
+Llama2-7B,dda_poolL,Pool L,32,0.6605780663749999,550.7895006256488
+Llama2-7B,dda_poolL,Pool L,32,0.7218626097499999,513.0204829922725
+Llama2-7B,dda_poolL,Pool L,32,0.7427183237499999,499.2289474805083
+Llama2-7B,dda_poolL,Pool L,32,0.90987284725,418.7733661200834
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,2.101985278875,5794.164295255538
+Llama2-7B,dda_poolT,Pool T,32,3.290968574875001,3707.145771132198
+Llama2-7B,dda_poolT,Pool T,32,3.290968574875001,3707.145771132198
+Llama2-7B,dda_poolT,Pool T,32,4.021721086875,3000.336182238341
+Llama2-7B,dda_poolT,Pool T,32,4.021721086875,3000.336182238341
+Llama2-7B,dda_poolT,Pool T,32,6.373422078875,1904.8451882387772
+Llama2-13B,native,PP1/TP20,20,0.9733998218437501,362.96438156728914
+Llama2-13B,native,PP2/TP10,20,0.9888719568437497,717.5805249990468
+Llama2-13B,native,PP4/TP5,20,1.1242784439374998,1296.0111291952344
+Llama2-13B,native,PP5/TP4,20,1.2256604158749997,1513.4816565684755
+Llama2-13B,native,PP10/TP2,20,1.53024657615625,2504.3553406085634
+Llama2-13B,native,PP20/TP1,20,2.2045292694375003,3636.9931492919313
+Llama2-13B,native,PP40/TP1,20,3.8221199401875006,4105.440101281036
+Llama2-13B,cent32static,PP1/TP32,32,0.9570026637187499,367.50187583200443
+Llama2-13B,cent32static,PP2/TP16,32,0.9727894702812501,726.2623074546187
+Llama2-13B,cent32static,PP4/TP8,32,1.08477975628125,1340.0615131934674
+Llama2-13B,cent32static,PP8/TP4,32,1.2256604158749997,2421.570650509561
+Llama2-13B,cent32static,PP16/TP2,32,1.53024657615625,4006.9685449737012
+Llama2-13B,cent32static,PP32/TP1,32,2.2045292694375003,5819.18903886709
+Llama2-13B,cent32static,PP40/TP1,32,3.8221199401875006,4105.440101281036
+Llama2-13B,dda_alpha,a=0.02,32,1.53,4189.2
+Llama2-13B,dda_alpha,a=0.03,32,1.53,4232.4
+Llama2-13B,dda_alpha,a=0.04,32,1.53,4276.5
+Llama2-13B,dda_alpha,a=0.05,32,1.53,4321.5
+Llama2-13B,dda_alpha,a=0.06,32,1.226,4367.4
+Llama2-13B,dda_alpha,a=0.07,32,1.102,4414.4
+Llama2-13B,dda_alpha,a=0.08,32,0.989,4462.4
+Llama2-13B,dda_alpha,a=0.09,32,0.989,3986.7
+Llama2-13B,dda_alpha,a=0.10,32,0.989,3588.0
+Llama2-13B,dda_alpha,a=0.11,32,0.989,3261.8
+Llama2-13B,dda_alpha,a=0.12,32,0.989,2990.0
+Llama2-13B,dda_alpha,a=0.13,32,0.989,2760.0
+Llama2-13B,dda_alpha,a=0.14,32,0.989,2562.9
+Llama2-13B,dda_alpha,a=0.15,32,0.989,2488.1
+Llama2-13B,dda_alpha,a=0.16,32,0.989,2517.7
+Llama2-13B,dda_alpha,a=0.17,32,0.989,2548.1
+Llama2-13B,dda_alpha,a=0.18,32,0.989,2579.1
+Llama2-13B,dda_alpha,a=0.19,32,0.989,2611.0
+Llama2-13B,dda_alpha,a=0.20,32,0.989,2643.6
+Llama2-13B,dda_alpha,a=0.21,32,0.989,2677.1
+Llama2-13B,dda_alpha,a=0.22,32,0.989,2711.4
+Llama2-13B,dda_alpha,a=0.23,32,0.989,2746.6
+Llama2-13B,dda_alpha,a=0.24,32,0.989,2782.8
+Llama2-13B,dda_alpha,a=0.25,32,0.989,2819.9
+Llama2-13B,dda_alpha,a=0.26,32,0.989,2760.0
+Llama2-13B,dda_alpha,a=0.27,32,0.989,2657.8
+Llama2-13B,dda_alpha,a=0.28,32,0.989,2562.9
+Llama2-13B,dda_alpha,a=0.29,32,0.989,2474.5
+Llama2-13B,dda_alpha,a=0.30,32,0.989,2392.0
+Llama2-13B,dda_alpha,a=0.31,32,0.989,2314.8
+Llama2-13B,dda_alpha,a=0.32,32,0.989,2242.5
+Llama2-13B,dda_alpha,a=0.33,32,0.989,2174.5
+Llama2-13B,dda_alpha,a=0.34,32,0.989,2110.6
+Llama2-13B,dda_alpha,a=0.35,32,0.989,2050.3
+Llama2-13B,dda_alpha,a=0.36,32,0.989,1993.3
+Llama2-13B,dda_alpha,a=0.37,32,0.989,1939.5
+Llama2-13B,dda_alpha,a=0.38,32,0.989,1888.4
+Llama2-13B,dda_alpha,a=0.39,32,0.989,1840.0
+Llama2-13B,dda_alpha,a=0.40,32,0.989,1794.0
+Llama2-13B,dda_alpha,a=0.41,32,0.989,1750.2
+Llama2-13B,dda_alpha,a=0.42,32,0.989,1708.6
+Llama2-13B,dda_alpha,a=0.43,32,0.989,1668.8
+Llama2-13B,dda_alpha,a=0.44,32,0.989,1630.9
+Llama2-13B,dda_alpha,a=0.45,32,0.989,1594.7
+Llama2-13B,dda_alpha,a=0.46,32,0.989,1560.0
+Llama2-13B,dda_alpha,a=0.47,32,0.989,1526.8
+Llama2-13B,dda_alpha,a=0.48,32,0.989,1495.0
+Llama2-13B,dda_alpha,a=0.49,32,0.989,1464.5
+Llama2-13B,dda_alpha,a=0.50,32,0.989,1435.2
+Llama2-13B,dda_alpha,a=0.51,32,0.989,1407.1
+Llama2-13B,dda_alpha,a=0.52,32,0.989,1380.0
+Llama2-13B,dda_alpha,a=0.53,32,0.989,1354.0
+Llama2-13B,dda_alpha,a=0.54,32,0.989,1328.9
+Llama2-13B,dda_alpha,a=0.55,32,0.989,1304.7
+Llama2-13B,dda_alpha,a=0.56,32,0.989,1281.4
+Llama2-13B,dda_alpha,a=0.57,32,0.989,1258.9
+Llama2-13B,dda_alpha,a=0.58,32,0.989,1237.2
+Llama2-13B,dda_alpha,a=0.59,32,0.989,1216.3
+Llama2-13B,dda_alpha,a=0.60,32,0.989,1196.0
+Llama2-13B,dda_alpha,a=0.61,32,0.989,1176.4
+Llama2-13B,dda_alpha,a=0.62,32,0.989,1157.4
+Llama2-13B,dda_alpha,a=0.63,32,0.989,1139.0
+Llama2-13B,dda_alpha,a=0.64,32,0.989,1121.2
+Llama2-13B,dda_alpha,a=0.65,32,0.989,1104.0
+Llama2-13B,dda_alpha,a=0.66,32,0.989,1087.3
+Llama2-13B,dda_alpha,a=0.67,32,0.989,1071.0
+Llama2-13B,dda_alpha,a=0.68,32,0.989,1055.3
+Llama2-13B,dda_alpha,a=0.69,32,0.989,1040.0
+Llama2-13B,dda_alpha,a=0.70,32,0.989,1025.1
+Llama2-13B,dda_alpha,a=0.71,32,0.989,1010.7
+Llama2-13B,dda_alpha,a=0.72,32,0.989,996.7
+Llama2-13B,dda_alpha,a=0.73,32,0.989,983.0
+Llama2-13B,dda_alpha,a=0.74,32,0.989,969.7
+Llama2-13B,dda_alpha,a=0.75,32,0.989,956.8
+Llama2-13B,dda_alpha,a=0.76,32,0.989,944.2
+Llama2-13B,dda_alpha,a=0.77,32,0.989,931.9
+Llama2-13B,dda_alpha,a=0.78,32,0.989,920.0
+Llama2-13B,dda_alpha,a=0.79,32,0.989,908.4
+Llama2-13B,dda_alpha,a=0.80,32,0.989,897.0
+Llama2-13B,dda_alpha,a=0.81,32,0.989,885.9
+Llama2-13B,dda_alpha,a=0.82,32,0.989,875.1
+Llama2-13B,dda_alpha,a=0.83,32,0.989,864.6
+Llama2-13B,dda_alpha,a=0.84,32,0.989,854.3
+Llama2-13B,dda_alpha,a=0.85,32,0.989,844.2
+Llama2-13B,dda_alpha,a=0.86,32,0.989,834.4
+Llama2-13B,dda_alpha,a=0.87,32,0.989,824.8
+Llama2-13B,dda_alpha,a=0.88,32,0.989,815.5
+Llama2-13B,dda_alpha,a=0.89,32,0.989,806.3
+Llama2-13B,dda_alpha,a=0.90,32,0.989,797.3
+Llama2-13B,dda_alpha,a=0.91,32,0.989,788.6
+Llama2-13B,dda_alpha,a=0.92,32,0.989,780.0
+Llama2-13B,dda_alpha,a=0.93,32,0.989,771.6
+Llama2-13B,dda_alpha,a=0.94,32,0.989,763.4
+Llama2-13B,dda_alpha,a=0.95,32,0.989,755.4
+Llama2-13B,dda_alpha,a=0.96,32,0.989,747.5
+Llama2-13B,dda_alpha,a=0.97,32,0.989,739.8
+Llama2-13B,dda_alpha,a=0.98,32,0.989,732.2
+Llama2-13B,dda_poolL,Pool L,32,0.9593617359062498,366.8416689827585
+Llama2-13B,dda_poolL,Pool L,32,0.9633195252812499,365.7396767932157
+Llama2-13B,dda_poolL,Pool L,32,0.9727894702812501,363.1311537273094
+Llama2-13B,dda_poolL,Pool L,32,0.9733998218437501,362.96438156728914
+Llama2-13B,dda_poolL,Pool L,32,0.9807335363749999,360.9731272398925
+Llama2-13B,dda_poolL,Pool L,32,0.9888719568437497,358.7902624995234
+Llama2-13B,dda_poolL,Pool L,32,0.9891866284062499,358.7064226496973
+Llama2-13B,dda_poolL,Pool L,32,1.08477975628125,335.01537829836684
+Llama2-13B,dda_poolL,Pool L,32,1.10208294596875,329.722769024524
+Llama2-13B,dda_poolL,Pool L,32,1.2256604158749997,302.69633131369517
+Llama2-13B,dda_poolL,Pool L,32,1.53024657615625,250.43553406085633
+Llama2-13B,dda_poolT,Pool T,32,3.8221199401875006,4105.440101281036
+Llama2-13B,dda_poolT,Pool T,32,3.8221199401875006,4105.440101281036
+Llama2-13B,dda_poolT,Pool T,32,3.8221199401875006,4105.440101281036
+Llama2-13B,dda_poolT,Pool T,32,3.8221199401875006,4105.440101281036
+Llama2-13B,dda_poolT,Pool T,32,3.8221199401875006,4105.440101281036
+Llama2-13B,dda_poolT,Pool T,32,3.8221199401875006,4105.440101281036
+Llama2-13B,dda_poolT,Pool T,32,5.931579908187501,2663.583345291142
+Llama2-13B,dda_poolT,Pool T,32,5.931579908187501,2663.583345291142
+Llama2-13B,dda_poolT,Pool T,32,5.931579908187501,2663.583345291142
+Llama2-13B,dda_poolT,Pool T,32,7.391514884187501,2114.872105301679
+Llama2-13B,dda_poolT,Pool T,32,7.391514884187501,2114.872105301679
+Llama2-70B,native,PP1/TP32,32,2.9559926860000005,111.29844523361437
+Llama2-70B,native,PP2/TP16,32,3.0866982395,215.9248935150034
+Llama2-70B,native,PP4/TP8,32,3.4786077162499995,396.53156885437943
+Llama2-70B,native,PP8/TP4,32,4.38345870225,664.0548834830627
+Llama2-70B,native,PP16/TP2,32,6.204703297375,1002.5263557150612
+Llama2-70B,native,PP32/TP1,32,9.9406925930625,1339.8434021267963
+Llama2-70B,native,PP80/TP1,32,28.740734970374994,1185.1364872703944
+Llama2-70B,cent32static,PP1/TP32,32,2.9559926860000005,111.29844523361437
+Llama2-70B,cent32static,PP2/TP16,32,3.0866982395,215.9248935150034
+Llama2-70B,cent32static,PP4/TP8,32,3.4786077162499995,396.53156885437943
+Llama2-70B,cent32static,PP8/TP4,32,4.38345870225,664.0548834830627
+Llama2-70B,cent32static,PP16/TP2,32,6.204703297375,1002.5263557150612
+Llama2-70B,cent32static,PP32/TP1,32,9.9406925930625,1339.8434021267963
+Llama2-70B,cent32static,PP80/TP1,32,28.740734970374994,1185.1364872703944
+Llama2-70B,dda_alpha,a=0.02,32,3.416,975.3
+Llama2-70B,dda_alpha,a=0.03,32,3.416,985.4
+Llama2-70B,dda_alpha,a=0.04,32,3.416,995.6
+Llama2-70B,dda_alpha,a=0.05,32,3.416,1006.1
+Llama2-70B,dda_alpha,a=0.06,32,3.416,1016.8
+Llama2-70B,dda_alpha,a=0.07,32,3.416,1027.7
+Llama2-70B,dda_alpha,a=0.08,32,3.416,1038.9
+Llama2-70B,dda_alpha,a=0.09,32,3.416,1050.3
+Llama2-70B,dda_alpha,a=0.10,32,3.363,1016.0
+Llama2-70B,dda_alpha,a=0.11,32,3.363,923.6
+Llama2-70B,dda_alpha,a=0.12,32,3.363,846.7
+Llama2-70B,dda_alpha,a=0.13,32,3.087,822.0
+Llama2-70B,dda_alpha,a=0.14,32,3.087,771.4
+Llama2-70B,dda_alpha,a=0.15,32,3.087,720.0
+Llama2-70B,dda_alpha,a=0.16,32,3.087,675.0
+Llama2-70B,dda_alpha,a=0.17,32,3.087,635.3
+Llama2-70B,dda_alpha,a=0.18,32,3.087,600.0
+Llama2-70B,dda_alpha,a=0.19,32,3.087,568.4
+Llama2-70B,dda_alpha,a=0.20,32,3.087,540.0
+Llama2-70B,dda_alpha,a=0.21,32,3.087,514.3
+Llama2-70B,dda_alpha,a=0.22,32,3.087,490.9
+Llama2-70B,dda_alpha,a=0.23,32,3.087,469.6
+Llama2-70B,dda_alpha,a=0.24,32,3.087,450.0
+Llama2-70B,dda_alpha,a=0.25,32,3.087,432.0
+Llama2-70B,dda_alpha,a=0.26,32,3.087,415.4
+Llama2-70B,dda_alpha,a=0.27,32,3.087,400.0
+Llama2-70B,dda_alpha,a=0.28,32,3.087,385.7
+Llama2-70B,dda_alpha,a=0.29,32,3.087,372.4
+Llama2-70B,dda_alpha,a=0.30,32,3.087,360.0
+Llama2-70B,dda_alpha,a=0.31,32,3.087,348.4
+Llama2-70B,dda_alpha,a=0.32,32,3.087,337.5
+Llama2-70B,dda_alpha,a=0.33,32,3.087,327.3
+Llama2-70B,dda_alpha,a=0.34,32,3.087,317.6
+Llama2-70B,dda_alpha,a=0.35,32,3.087,308.6
+Llama2-70B,dda_alpha,a=0.36,32,3.087,300.0
+Llama2-70B,dda_alpha,a=0.37,32,3.087,291.9
+Llama2-70B,dda_alpha,a=0.38,32,3.087,284.2
+Llama2-70B,dda_alpha,a=0.39,32,3.087,276.9
+Llama2-70B,dda_alpha,a=0.40,32,3.087,270.0
+Llama2-70B,dda_alpha,a=0.41,32,3.087,263.4
+Llama2-70B,dda_alpha,a=0.42,32,3.087,257.1
+Llama2-70B,dda_alpha,a=0.43,32,3.087,251.2
+Llama2-70B,dda_alpha,a=0.44,32,3.087,245.5
+Llama2-70B,dda_alpha,a=0.45,32,3.087,240.0
+Llama2-70B,dda_alpha,a=0.46,32,3.087,234.8
+Llama2-70B,dda_alpha,a=0.47,32,3.087,229.8
+Llama2-70B,dda_alpha,a=0.48,32,3.087,225.0
+Llama2-70B,dda_alpha,a=0.49,32,3.087,220.4
+Llama2-70B,dda_alpha,a=0.50,32,3.087,216.0
+Llama2-70B,dda_alpha,a=0.51,32,3.087,211.8
+Llama2-70B,dda_alpha,a=0.52,32,3.087,207.7
+Llama2-70B,dda_alpha,a=0.53,32,3.087,203.8
+Llama2-70B,dda_alpha,a=0.54,32,3.087,200.0
+Llama2-70B,dda_alpha,a=0.55,32,3.087,196.4
+Llama2-70B,dda_alpha,a=0.56,32,3.087,192.9
+Llama2-70B,dda_alpha,a=0.57,32,3.087,189.5
+Llama2-70B,dda_alpha,a=0.58,32,3.087,186.2
+Llama2-70B,dda_alpha,a=0.59,32,3.087,183.1
+Llama2-70B,dda_alpha,a=0.60,32,3.087,180.0
+Llama2-70B,dda_alpha,a=0.61,32,3.087,177.0
+Llama2-70B,dda_alpha,a=0.62,32,3.087,174.2
+Llama2-70B,dda_alpha,a=0.63,32,3.087,171.4
+Llama2-70B,dda_alpha,a=0.64,32,3.087,168.8
+Llama2-70B,dda_alpha,a=0.65,32,3.087,166.2
+Llama2-70B,dda_alpha,a=0.66,32,3.087,163.6
+Llama2-70B,dda_alpha,a=0.67,32,3.087,161.2
+Llama2-70B,dda_alpha,a=0.68,32,3.087,158.8
+Llama2-70B,dda_alpha,a=0.69,32,3.087,156.5
+Llama2-70B,dda_alpha,a=0.70,32,3.087,154.3
+Llama2-70B,dda_alpha,a=0.71,32,3.087,152.1
+Llama2-70B,dda_alpha,a=0.72,32,3.087,150.0
+Llama2-70B,dda_alpha,a=0.73,32,3.087,147.9
+Llama2-70B,dda_alpha,a=0.74,32,3.087,145.9
+Llama2-70B,dda_alpha,a=0.75,32,3.087,144.0
+Llama2-70B,dda_alpha,a=0.76,32,3.087,142.1
+Llama2-70B,dda_alpha,a=0.77,32,3.087,140.3
+Llama2-70B,dda_alpha,a=0.78,32,3.087,138.5
+Llama2-70B,dda_alpha,a=0.79,32,3.087,136.7
+Llama2-70B,dda_alpha,a=0.80,32,3.087,135.0
+Llama2-70B,dda_alpha,a=0.81,32,3.087,133.3
+Llama2-70B,dda_alpha,a=0.82,32,3.087,131.7
+Llama2-70B,dda_alpha,a=0.83,32,3.087,130.1
+Llama2-70B,dda_alpha,a=0.84,32,3.087,128.6
+Llama2-70B,dda_alpha,a=0.85,32,3.087,127.1
+Llama2-70B,dda_alpha,a=0.86,32,3.087,125.6
+Llama2-70B,dda_alpha,a=0.87,32,3.087,124.1
+Llama2-70B,dda_alpha,a=0.88,32,3.087,122.7
+Llama2-70B,dda_alpha,a=0.89,32,3.087,121.3
+Llama2-70B,dda_alpha,a=0.90,32,3.087,120.0
+Llama2-70B,dda_alpha,a=0.91,32,3.087,118.7
+Llama2-70B,dda_alpha,a=0.92,32,3.087,117.4
+Llama2-70B,dda_alpha,a=0.93,32,3.087,116.1
+Llama2-70B,dda_alpha,a=0.94,32,3.087,114.9
+Llama2-70B,dda_alpha,a=0.95,32,3.087,113.7
+Llama2-70B,dda_alpha,a=0.96,32,3.087,112.5
+Llama2-70B,dda_alpha,a=0.97,32,3.087,111.3
+Llama2-70B,dda_alpha,a=0.98,32,3.087,110.2
+Llama2-70B,dda_poolL,Pool L,32,3.0866982395,107.96244675750171
+Llama2-70B,dda_poolL,Pool L,32,3.3008599328750003,102.93810351553688
+Llama2-70B,dda_poolL,Pool L,32,3.3625506002499996,101.58245200946996
+Llama2-70B,dda_poolL,Pool L,32,3.4156963457500003,100.44484341800592
+Llama2-70B,dda_poolL,Pool L,32,3.4786077162499995,99.13289221359486
+Llama2-70B,dda_poolL,Pool L,32,3.905444495625,90.82482482275131
+Llama2-70B,dda_poolL,Pool L,32,4.38345870225,83.00686043538283
+Llama2-70B,dda_poolL,Pool L,32,6.204703297375,62.65789723219133
+Llama2-70B,dda_poolT,Pool T,32,28.740734970374994,1185.1364872703944
+Llama2-70B,dda_poolT,Pool T,32,28.740734970374994,1185.1364872703944
+Llama2-70B,dda_poolT,Pool T,32,35.414558714375005,955.8096012333235
+Llama2-70B,dda_poolT,Pool T,32,35.414558714375005,955.8096012333235
+Llama2-70B,dda_poolT,Pool T,32,35.414558714375005,955.8096012333235
+Llama2-70B,dda_poolT,Pool T,32,35.414558714375005,955.8096012333235
+Llama2-70B,dda_poolT,Pool T,32,47.39414143437501,715.1127409494429
+Llama2-70B,dda_poolT,Pool T,32,47.39414143437501,715.1127409494429

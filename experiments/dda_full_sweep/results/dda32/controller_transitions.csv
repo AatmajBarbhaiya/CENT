@@ -1,0 +1,19 @@
+Model,from_split,to_split,times,mean_devices_drained,total_tokens_lost,traces
+Llama2-13B,6xTP2/N_T20,7xTP2/N_T18,4,6.0,285790.2,"3_step_up, 5_slow_ramp, 7_diurnal, 9_overload"
+Llama2-13B,1xTP2/N_T30,6xTP2/N_T20,2,20.0,369653.8,"5_slow_ramp, 7_diurnal"
+Llama2-13B,4xTP3/N_T20,6xTP3/N_T14,2,18.0,399603.5,"7_diurnal, 9_overload"
+Llama2-13B,6xTP3/N_T14,6xTP2/N_T20,2,30.0,553946.6,"7_diurnal, 9_overload"
+Llama2-13B,9xTP2/N_T14,11xTP2/N_T10,2,14.0,292437.1,"5_slow_ramp, 8_spill_saturation"
+Llama2-13B,2xTP6/N_T20,6xTP2/N_T20,1,12.0,121463.6,3_step_up
+Llama2-13B,3xTP4/N_T20,4xTP3/N_T20,1,12.0,127794.0,8_spill_saturation
+Llama2-13B,4xTP3/N_T20,6xTP2/N_T20,1,12.0,133201.2,8_spill_saturation
+Llama2-13B,6xTP2/N_T20,1xTP2/N_T30,1,20.0,238158.5,7_diurnal
+Llama2-13B,6xTP2/N_T20,9xTP2/N_T14,1,18.0,214342.6,8_spill_saturation
+Llama2-13B,7xTP2/N_T18,6xTP2/N_T20,1,6.0,56265.8,7_diurnal
+Llama2-13B,7xTP2/N_T18,9xTP2/N_T14,1,12.0,112531.6,5_slow_ramp
+Llama2-13B,9xTP2/N_T14,2xTP6/N_T20,1,30.0,313325.5,4_step_down
+Llama2-7B,1xTP1/N_T31,16xTP1/N_T16,2,30.0,560078.0,"5_slow_ramp, 7_diurnal"
+Llama2-7B,2xTP8/N_T16,8xTP2/N_T16,1,16.0,168943.2,3_step_up
+Llama2-7B,4xTP4/N_T16,8xTP2/N_T16,1,16.0,190765.3,7_diurnal
+Llama2-7B,8xTP2/N_T16,16xTP1/N_T16,1,16.0,223725.7,9_overload
+Llama2-7B,8xTP2/N_T16,1xTP1/N_T31,1,31.0,433468.5,7_diurnal
